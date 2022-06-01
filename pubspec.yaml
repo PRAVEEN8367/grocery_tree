@@ -1,0 +1,273 @@
+name: grocery_tree
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.2 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  extended_tabs: any
+  
+
+
+
+    
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^0.22.0
+  flutter_image_slideshow: ^0.1.1
+  buttons_tabbar: ^1.3.3
+  flutter_switch: ^0.3.2
+  custom_switch_button: ^0.5.0
+  flutter_advanced_switch: ^3.0.1
+  carousel_indicator: ^1.0.6
+  cool_dropdown: ^1.4.1
+
+ 
+  
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones
+  flutter_lints: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/Coke.png
+    - assets/images/Dals.png
+    - assets/images/Ricegrains.png
+    - assets/images/Cookingoil.png
+    - assets/images/Basmati1.png
+    - assets/images/Basmati.png
+    - assets/images/Beauty.png
+    - assets/images/Cereals.png
+    - assets/images/Choco.png
+    - assets/images/Cow.png
+    - assets/images/Daawat.png
+    - assets/images/Fastfood.png
+    - assets/images/Fruits.png
+    - assets/images/HomeCare.png
+    - assets/images/Lazzat.png    
+    - assets/images/Nuts.png
+    - assets/images/Snacks.png
+    - assets/images/5Num.svg
+    - assets/images/Add_Btn.svg
+    - assets/images/Down.svg
+    - assets/images/Into.svg
+    - assets/images/Loc.svg
+    - assets/images/Offers.svg
+    - assets/images/Price.svg
+    - assets/images/RadioOn.svg
+    - assets/images/Rect.svg
+    - assets/images/Rupee.svg
+    - assets/images/Save.svg
+    - assets/images/Saved.svg
+    - assets/images/Star.svg
+    - assets/images/Sub_Btn.svg
+    - assets/images/Vector.svg
+    - assets/images/Sort.svg
+    - assets/images/Filter1.svg
+    - assets/images/ArrowDown.svg
+    - assets/images/UnSave.svg
+    - assets/images/Daawat1.png
+    - assets/images/Notify.svg
+    - assets/images/Silk.png
+    - assets/images/Info.svg
+    - assets/images/Into1.svg
+    - assets/images/EclippseOff.svg
+    - assets/images/Chewtoy.png
+    - assets/images/GooglePay.png
+    - assets/images/Phonepe.png
+    - assets/images/Paytm.png
+    - assets/images/Freecharge.png
+    - assets/images/Mobikwik.png
+    - assets/images/Cards.svg
+    - assets/images/Netbanking.png
+    - assets/images/Money.png
+    - assets/images/Tick.png
+    -  assets/images/Home.png
+    - assets/images/Detail.png
+    - assets/images/Share.png
+    - assets/images/Office.png
+    - assets/images/Add.png
+    - assets/images/Drop.png
+    - assets/images/Edit.png
+    - assets/images/Delete.png
+    - assets/images/Location.png
+    - assets/images/Sym.jpg
+    - assets/images/Cart.png
+    - assets/images/Star1.jpg
+    - assets/images/StarEmp.png
+    - assets/images/Caution.svg
+    - assets/images/BasSearch.png
+    - assets/images/Go.svg
+    - assets/images/DaawatSearch.png
+    -  assets/images/Empty.png
+    - assets/images/Search.png
+    - assets/images/Open.png
+    - assets/images/Cancel.svg
+    - assets/images/Upload.png
+    - assets/images/Chewtoy1.png
+    - assets/images/Close_back.png
+    - assets/images/Square.png
+    - assets/images/Dark_Chocolate.png
+    - assets/images/Hershey.png
+    - assets/images/Request1.png
+    - assets/images/Done1.png
+    - assets/images/Shipped.png
+    - assets/images/Rect.png
+    - assets/images/Edit1.png
+    - assets/images/Share1.png
+    - assets/images/Delete1.png
+    - assets/images/Order.png
+    - assets/images/Time.png
+    - assets/images/Grocery.png
+    - assets/images/Locate.png
+    - assets/images/Delivered.png
+    - assets/images/empStar.png
+    - assets/images/Cancelled.png
+    - assets/images/Party.png
+    - assets/images/Shopping.png
+    - assets/images/Orderdone.png
+    - assets/images/Payment_Failed.png
+    - assets/images/New_Bank.png
+    - assets/images/Sbi.png
+    - assets/images/HDFC.png
+    - assets/images/ICICI.png
+    - assets/images/AXIS.png
+    - assets/images/INDB.png
+    - assets/images/Add1.png
+    - assets/images/Home1.png
+    - assets/images/Dark.png
+    - assets/images/Track.png
+    - assets/images/Refunded.png
+    - assets/images/Sort1.png
+    - assets/images/Filter.png
+    - assets/images/Cornitos.png
+    - assets/images/Coconut.png
+    - assets/images/Coke1.png
+    - assets/images/Cavins.png
+    - assets/images/Timer.png
+    - assets/images/Saved.png
+    - assets/images/Offer1.png
+    - assets/images/Daawat4.png
+
+
+
+    
+
+
+      # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          style: normal
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          style: normal
+    - family: Cerapro
+      fonts:
+        - asset: assets/fonts/Cerapro-Bold.ttf
+          style: normal
+    - family: Cerapro
+      fonts:
+        - asset: assets/fonts/CeraPro-Regular.ttf
+          style: normal
+    - family: Cerapro
+      fonts:
+        - asset: assets/fonts/Cerapro-Medium.ttf
+          style: normal
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          style: normal
+    - family: Lexend
+      fonts:
+        - asset: assets/fonts/Lexend-Medium.ttf
+          style: normal
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Medium.ttf
+          style: normal
+    - family: Lexend
+      fonts:
+        - asset: assets/fonts/Lexend-Light.ttf
+          style: normal
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-SemiBold.ttf
+          style: normal
+    - family: Lexend
+      fonts:
+        - asset: assets/fonts/Lexend-SemiBold.ttf
+          style: normal
+    - family: Gilroy
+      fonts:
+        - asset: assets/fonts/Gilroy-Bold.ttf
+          style: normal
+    
+ 
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
